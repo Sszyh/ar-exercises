@@ -10,3 +10,8 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+
+Metro = Store.create(name: "Me")
+@store7 = Store.find_by(name: "Metro")
+puts Metro.errors.full_messages
